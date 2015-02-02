@@ -2,14 +2,18 @@
 
 $lang = array( 
 
-'Pasut_Beach' => array(
-	'name'	=> 'Pasut Beach',
-	'desc'	=> 'Pasut beach is only a short walking distance from Puri Dewa Bungalows. Here you can enjoy endless black sand with only a few people at any given time; the perfect place to take a swim, fish, or enjoy a romantic sunset.',
-),
+'introduction' => "Puri Dewa offers a wide range of activities for its guests. Our guides can accompany you to local ceremonies or organize outings to Tabanan Regency's most famous destinations. Please contact us for more information.",
+
+'list' => array(
 
 'Kerambitan_Performance_Palaces' => array(
 	'name' => 'Kerambitan Performance Palaces',
-	'desc' => 'Kerambitan meaning art, music, and dance in Sanskrit karawitan is renowned for its distinctive art forms including a rich classical litterature and the Legong dance. Since 1967, cultural programs are offered in the two palaces: Puri Gede and Puri Anyar.',
+	'desc' => 'Kerambitan meaning art, music, and dance in Sanskrit is renowned for its distinctive art forms including a rich classical litterature and the Legong dance. Since 1967, cultural programs are offered in the two palaces: Puri Gede and Puri Anyar.',
+),
+
+'Pasut_Beach' => array(
+	'name'	=> 'Pasut Beach',
+	'desc'	=> 'Pasut beach is only a short walking distance from Puri Dewa Bungalows. Here you can enjoy endless black sand with only a few people at any given time; the perfect place to take a swim, fish, or enjoy a romantic sunset.',
 ),
 
 'Bali_Butterfly_Park' => array(
@@ -40,6 +44,8 @@ $lang = array(
 'Tanah_Lot_Temple' => array(
 	'name' => 'Tanah Lot Temple',
 	'desc' => 'Tanah Lot is Bali\'s most famous temple. It rests on a small rock that becomes an island at high tide and symbolizes the balance between male and female; inner and outer world. Tanah Lot is a popular destination for those who love breathtaking sunsets and photography.',
+),
+
 ),
 
 );

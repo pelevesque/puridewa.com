@@ -3,7 +3,7 @@
 $lang = array( 
 
 'name'				=> 'Puri Dewa',
-'slogan' 			=> 'Lumbung Bungalow di tengah alam',
+'slogan' 			=> 'Bungalow tradisional di tengah alam bernuansa Bali',
 'copyright'			=> 'hak cipta dilindungi oleh %1$s, %2$s',
 
 );

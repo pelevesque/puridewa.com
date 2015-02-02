@@ -16,15 +16,16 @@
  *
  * @param	bool	enable
  */
-$config['enabled'] = FALSE;
+$config['enabled'] = TRUE;
 
 /**
  * Supported languages
  */
 $config['languages'] = array(
 	'en'	=> array('en', 'English_United States'),
+	'id'	=> array('id', 'Bahasa Indonesia_Indonesia'),
 	// 'fr'	=> array('fr', 'Français_France'),
-	// 'id'	=> array('id', 'Bahasa Indonesia_Indonesia'),
+
 );
 
 /**
