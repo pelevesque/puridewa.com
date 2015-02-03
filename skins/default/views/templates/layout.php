@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="keywords" content="<?php echo $meta_keywords ?>" />
 <meta name="description" content="<?php echo $meta_description ?>" />
-<title><?php echo $website_name ?> &ndash; <?php echo $website_slogan ?> | <?php echo ucwords($webpage_title) ?></title>
+<title><?php echo $website_name ?> | <?php echo $website_slogan ?> | <?php echo ucwords($webpage_title) ?></title>
 <?php skin::load_assets() ?>
 <!--[if lt IE 8]>
 <link rel="stylesheet" href="<?php echo $url_base.Kohana::config('skin.IE_CSS_FIX') ?>" type="text/css" />

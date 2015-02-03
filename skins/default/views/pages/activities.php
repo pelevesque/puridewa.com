@@ -1,6 +1,6 @@
 <?php defined('SYSPATH') OR die('No direct access allowed.'); ?>
 <h1><?php echo $page_name ?></h1>
-<p><?php echo Kohana::lang('activities.introduction') ?></p>
+<p id="activities_introduction"><?php echo Kohana::lang('activities.introduction') ?></p>
 <?php foreach (Kohana::lang('activities.list') as $activity => $vals): ?>
 <div class="activity clearfix">
 <h2><?php echo $vals['name'] ?></h2>

@@ -10,7 +10,7 @@ $config['contact'] = array(
 	),
 	'tel'	=> '+62 812-387-1711',
 	'fax'	=> '+62 361-241-924',
-	'email' => 'email@gmail.com',
+	'email' => 'puridewa@gmail.com',
 );
 
 // Copyright.

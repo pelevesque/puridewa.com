@@ -38,12 +38,12 @@ body { width: 100%; margin: auto; max-width: 950px }
 #language_picker { padding-top: 15px }
 #language_picker li { float: right; width: auto; margin-left: 7px }
 #language_picker li a { background: url('../images/flags/flags.png') no-repeat; display: block; height: 16px; width: 16px; text-indent: -100em; overflow: hidden }
-#language_picker li#en_US a { background-position: 0 0 }
-#language_picker li#fr_FR a { background-position: 0 -16px }
-#language_picker li#id_ID a { background-position: 0 -32px }
-#language_picker li#en_US a:hover { background-position: -16px 0 }
-#language_picker li#fr_FR a:hover { background-position: -16px -16px }
-#language_picker li#id_ID a:hover { background-position: -16px -32px }
+#language_picker li#en a { background-position: 0 0 }
+#language_picker li#fr a { background-position: 0 -16px }
+#language_picker li#id a { background-position: 0 -32px }
+#language_picker li#en a:hover { background-position: -16px 0 }
+#language_picker li#fr a:hover { background-position: -16px -16px }
+#language_picker li#id a:hover { background-position: -16px -32px }
 #header { margin-bottom: 11px }
 #header h1 { background: url('../images/logos/logo.png') no-repeat; width: 243px; height:39px; float: left; text-indent: -100em; margin: -11px 0 0 0 }
 #header h2 { float: right; width: auto; margin: 8px 0 0 0 }
@@ -60,6 +60,7 @@ body { width: 100%; margin: auto; max-width: 950px }
 .image { margin-bottom: 20px }
 .image br { display: none }
 .image small { display: block; margin-right: 3px }
+#activities_introduction { max-width: 400px; margin-bottom: 30px; }
 .activity { max-width: 575px; margin-bottom: 25px }
 .activity h2 { margin-bottom: 7px }
 .activity img { float: left; width: auto; margin: 0 12px 10px 0 }
@@ -78,7 +79,8 @@ input, textarea {  padding: 3px }
 textarea { width: 25em; height: 11em } /* 300px 132px */
 button { padding: 3px }
 form strong { display: block; margin-top: 5px }
-p.submit { margin: 10px 0 0 0 }
+p.submit { margin: 10px 0 0 0; }
+p.submit button { padding: 6px 10px; }
 form#contact { width: 24em } /* 384px */
 form#contact input { margin-right: 10px }
 form#reservation { width: 27em } /* 432px */
@@ -94,18 +96,26 @@ input#airport_pickup { width: 1em; border: none; padding: 0 } /* cancel input de
  ******************************************************************/
 body { background: #1c1810 }
 #header, #nav li a, #nav li a:visited, .image small { color: #64604B }
-#body { background: #fed0ae }
+#body { background: #f5f5f5 }
 #nav li a:hover, #nav li.active { color: #979070 }
-#body, #credits, form#reservation legend small { color: #474435 }
-#body li span { color: #474435 }
-#body li { color: #1c1811 }
-#body h1, #body h2, legend, p#address { color: #1c1811 }
+#body, #body li span, #credits, form#reservation legend small { color: #474435 }
+#body h1, #body li, #body h2, legend, p#address { color: #1c1811 }
 #body img, form, fieldset, input, textarea, button { border: 1px solid #A49D7B }
-#body img, input, textarea, button { background: #ffffff }
-form { background: #CEC69E }
-fieldset { background: #C9C29C }
+#body img, input, textarea, button { background: #f5f5f5 }
+form, fieldset { background: #edece8 }
 input, textarea, button { color: #1c1811 }
 form strong, .error { color: #CC0C0C }
 .success { color: #327a29 }
 abbr { border-bottom: 1px dotted #64604B }
+#body img, form, fieldset, input, textarea, button { border: 1px solid #ddd }
 a, a:active, a:visited, a:hover, .image a small, .image a:active small, .image a:visited small, .image a:hover small { color: #0407A8 }
+/******************************************************************
+ * Transitions
+ ******************************************************************/
+#nav a {
+  -webkit-transition: color 500ms linear, background 500ms linear;
+  -moz-transition: color 500ms linear, background 500ms linear;
+  -ms-transition: color 500ms linear, background 500ms linear;
+  -o-transition: color 500ms linear, background 500ms linear;
+  transition: color 500ms linear, background 500ms linear;
+}

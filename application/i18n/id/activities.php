@@ -6,11 +6,6 @@ $lang = array(
 
 'list' => array(
 
-'Ceremonies'	=> array(
-	'name' => 'Upacara',
-	'desc' => 'Upacara dalam agama Hindu dibagi menjadi beberapa kategori yaitu upacara potong gigi, pernikahan, kremasi, dan lain sebagainya. Upacara potong gigi dilaksanakan ketika pria dan wanita akan beranjak dewasa. Upacara pernikahan dan kremasi adalah upacara yang utama di Bali.',
-),
-
 'Kerambitan_Performance_Palaces' => array(
 	'name' => 'Istana Kerambitan',
 	'desc' => 'Kerambitan artinya seni, musik, dan tari didalam bahasa Sansekerta yang dikenal dengan bentuk seni yang khas termasuk kekayaan kesusastraan klasik dan tarian Legong. Sejak tahun 1967, program-program budaya ditawarkan di dua istana: Puri Gede dan Puri Anyar.',
