@@ -11,7 +11,8 @@ $config['maps'] = array(
 		),
 		'type'				=> 'ROADMAP',
 		'navigationControl' => 'true',
-		'mapTypeControl'	=> 'true', 		'scaleControl'		=> 'false', 
+		'mapTypeControl'	=> 'true',		'scaleControl'		=> 'false',
+		'key'				=> 'AIzaSyDiMwc9tAwq7aaON_Mb4LZinop4RcYFRf4',
 	),
 );
 
