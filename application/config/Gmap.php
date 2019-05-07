@@ -4,16 +4,16 @@
  */
 $config['maps'] = array(
 	'Bali' => array(
-		'zoom'				=> 11,
+		'zoom'   => 11,
 		'center' => array(
-			'Lat'			=> -8.578984,
-			'Lng'			=> 115.199203,
+			'Lat'  => -8.578984,
+			'Lng'  => 115.199203,
 		),
-		'type'				=> 'ROADMAP',
+		'type' => 'ROADMAP',
 		'navigationControl' => 'true',
-		'mapTypeControl'	=> 'true',
-		'scaleControl'		=> 'false',
-		'key'				=> 'AIzaSyDiMwc9tAwq7aaON_Mb4LZinop4RcYFRf4',
+		'mapTypeControl' => 'true',
+		'scaleControl' => 'false',
+		'key' => '',
 	),
 );
 
